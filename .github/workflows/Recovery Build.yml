@@ -22,7 +22,7 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/Infinix/Infinix-X688B'
+        default: 'device/infinix/X688B'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -30,13 +30,13 @@ on:
         description: 'COMMON_PATH (if no common tree, leave blank)'
         required: false
       DEVICE_NAME:
-        description: 'DEVICE_NAME'
+        description: 'X688B'
         required: true
-        default: 'Infinix-X688B'
+        default: 'X688B'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'full_Infinix-X688B'
+        default: 'twrp_X688B'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
